@@ -1,11 +1,11 @@
-<h1 align="centre">🎵 Geez Music Projects 🎵</h1>
+<h1 align="centre">🎵 Kyy-Music 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-### Available on telegram as [@GeezMusicBot](https://t.me/GeezMusicBot)
+### Available on telegram as [KYYMUSIC](https://t.me/kyymusic_bot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/9c33051aae30b996e0ca4.jpg">
+  <img src="https://telegra.ph/file/aa0f75f4d4b6519ccd19e.jpg">
 </p>
 <h2> Features </h2>
 
@@ -20,20 +20,6 @@
 - Userbot auto join
 
 ## 🚀 Deployment
-
-### ⚔ Self-hosting (For Devs) 
-```sh
-# Install Git First (apt-instll git)
-$ git clone https://github.com/vckyou/Geez-MusicProject
-$ cd Geez-MusicProject
-# Upgrade sources
-# Install All Requirements 
-$ pip(3) install -r requirements.txt
-# Rename example.env to local.env and fill
-$ npm i -g npm
-# Start Bot 
-$ python(3) -m GeezProject
-```
 
 ### 💜 Heroku
 
@@ -73,26 +59,11 @@ Get pyrogram (p)  `SESSION` from here:
 - `.no` - disapproove someone to pm you
 + Sudo Users can execute any command in any groups
 
-### Credits
-Don't edit this part
+### OWNER
+- [KYY](https://t.me/sokapgblg)
 
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
 This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Geez Music won't exist. 
-Geez-Project is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
-
-#### Contribtors
-- [Vicky](https://github.com/Vckyou)
-- [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Rojserbest](http://github.com/rojserbes): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
-- [Hamker Cat](https://github.com/thehamkercat/)
-- [Anjana-Ma](https://github.com/Anjana-Ma):
-- [Risman](https://github.com/mrsmanazis)
-- [ImJanindu](https://github.com/ImJanindu): 
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
+Kyy-Music is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
