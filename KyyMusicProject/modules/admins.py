@@ -42,7 +42,7 @@ async def update_admin(client, message: Message):
         ),
     )
 
-    await message.reply_text("✅️ Admin cache refreshed!")
+    await message.reply_text("✅️ Admin cache refreshed in group!")
 
 
 @Client.on_message(command(["pause", "jeda"]) & other_filters)
