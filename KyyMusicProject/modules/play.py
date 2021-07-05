@@ -38,7 +38,7 @@ from GeezProject.config import BOT_NAME as bn
 from GeezProject.config import DURATION_LIMIT
 from GeezProject.config import UPDATES_CHANNEL as updateschannel
 from GeezProject.config import que
-from GeezProject.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,BOT_USERNAME, OWNER
+from GeezProject.config import ASSISTANT_NAME,PROJECT_NAME,SUPPORT_CHANNEL,BOT_USERNAME, OWNER
 from GeezProject.function.admins import admins as a
 from GeezProject.helpers.admins import get_administrators
 from GeezProject.helpers.channelmusic import get_chat_id
@@ -530,8 +530,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/kyymusicsupport"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -577,8 +577,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/kyymusicsupport"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -656,8 +656,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/kyymusicsupport"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -794,8 +794,8 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/kyymusicsupport"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -929,7 +929,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1024,8 +1024,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/virtuallbullshit"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/kyymusicsupport"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
