@@ -265,7 +265,7 @@ async def jssong(_, message):
         return
     if is_downloading:
         await message.reply_text(
-            "Downloadan yang lain sedang berlangsung, coba lagi nanti"
+            "Download yang lain sedang berlangsung, coba lagi nanti"
         )
         return
     is_downloading = True
