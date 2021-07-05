@@ -16,7 +16,7 @@
 
 from pyrogram import Client
 import asyncio
-from GeezProject.config import SUDO_USERS, PMPERMIT, OWNER, PROJECT_NAME, UPDATES_CHANNEL, SUPPORT_GROUP
+from GeezProject.config import SUDO_USERS, PMPERMIT, OWNER, PROJECT_NAME, UPDATES_CHANNEL, SUPPORT_CHANNEL
 from pyrogram import filters
 from pyrogram.types import Message
 from GeezProject.services.callsmusic.callsmusic import client as USER
@@ -32,7 +32,7 @@ async def pmPermit(client: USER, message: Message):
             return
         await USER.send_message(
             message.chat.id,
-            f"Halo, Saya adalah **Layanan Asistant {PROJECT_NAME}.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Tutorial Cara Menggunakan bot Lihat di @{UPDATES_CHANNEL} \n\n 👉 **KIRIM LINK INVITE ATAU USERNAME GRUP, JIKA ASSISTANT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Group Support :** @{SUPPORT_GROUP} - **Owner** {OWNER}\n\n",
+            f"Halo, Saya adalah **Layanan Asistant {PROJECT_NAME}.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Tutorial Cara Menggunakan bot Lihat di @{UPDATES_CHANNEL} \n\n 👉 **KIRIM LINK INVITE ATAU USERNAME GRUP, JIKA ASSISTANT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Channel Support :** @{SUPPORT_CHANNEL} - **Owner** {OWNER} \n\n",
         )
         return
 
